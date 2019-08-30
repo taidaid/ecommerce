@@ -5,19 +5,20 @@ import "./menu-item.styes.scss";
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
   return (
-    <div
+    <section
       className={`${size || ""} menu-item`}
       onClick={() => history.push(`${match.url}${linkUrl}`)}
     >
-      <div
+      <img
         style={{ backgroundImage: `url(${imageUrl})` }}
         className="background-image"
+        alt="menu item background"
       />
       <div className="content">
         <h1 className="title">{title.toUpperCase()}</h1>
         <span className="subtitle">SHOP NOW</span>
       </div>
-    </div>
+    </section>
   );
 };
 

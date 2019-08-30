@@ -44,11 +44,11 @@ class Directory extends Component {
   }
   render() {
     return (
-      <div className="directory-menu">
+      <section className="directory-menu">
         {this.state.sections.map(props => {
           return <MenuItem key={props.id} {...props} />;
         })}
-      </div>
+      </section>
     );
   }
 }
