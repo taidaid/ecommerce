@@ -1,3 +1,5 @@
+A tutorial project for React (Hooks), Redux, and GraphQL by Andrei Neagoie and Yi Hua Zhang.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
