@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^7.2.0",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "fibers": "^4.0.2",
+    "firebase": "^7.7.0",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-redux": "7.0.3",
     "react-router-dom": "5.0.0",
     "redux": "4.0.1",
-    "redux-logger": "3.0.6"
+    "redux-logger": "3.0.6",
+    "sass": "^1.25.1-test.1",
+    "typescript": "^3.7.5"
   },
   "resolutions": {
     "babel-jest": "24.7.1"
@@ -37,7 +40,6 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "3.0.0",
-    "eslint": "^5.16.0"
+    "react-scripts": "^3.3.0"
   }
 }
