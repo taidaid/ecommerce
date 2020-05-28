@@ -1,6 +1,8 @@
-const cartActionTypes = {
+const CartActionTypes = {
   TOGGLE_CART_HIDDEN: "TOGGLE_CART_HIDDEN",
-  ADD_ITEM: "ADD_ITEM"
+  ADD_ITEM: "ADD_ITEM",
+  REMOVE_ITEM_FROM_CART: "REMOVE_ITEM_FROM_CART",
+  DECREASE_CART_ITEM_QUANTITY: "DECREASE_CART_ITEM_QUANTITY",
 };
 
-export default cartActionTypes;
+export default CartActionTypes;
