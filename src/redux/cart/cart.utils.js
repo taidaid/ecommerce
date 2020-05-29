@@ -15,10 +15,6 @@ export const addItemToCart = (cartItems, cartItemToAdd) => {
 };
 
 export const decreaseItemQuantity = (cartItems, cartItemToDecrease) => {
-  console.log("utils");
-  const foundCartItem = cartItems.find(
-    (cartItem) => cartItem.id === cartItemToDecrease.id
-  );
   return cartItems.map((cartItem) =>
     cartItem.id === cartItemToDecrease.id
       ? { ...cartItem, quantity: cartItem.quantity - 1 }
